@@ -1,0 +1,67 @@
+.home{
+    display: flex;
+}
+
+/*Search Bar Box CSS*/
+
+.searchbar{
+    box-sizing: border-box;
+    width: 320px;
+    height: 420px;
+    border: 2px solid #e0dede;
+    border-radius: 10px;
+    padding:  0px 10px 10px;
+    margin-left: 45px;
+    margin-right: 40px;
+}
+.searchbar .heading {
+    text-align: center;
+    color: black;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+
+.searchbar input[type="text"]{
+    background-color: aqua;
+    width: 275px;
+    height: 48px;
+    background-color: #E8E8E8;
+    margin-bottom: 15px;
+    border: #E8E8E8 1px solid;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.searchbar input::placeholder{
+    color: #5E5E5E;
+    font-size: 17px;
+    font-weight: 400;
+    overflow: hidden;
+    padding: 0px 20px 0px;
+    font-family: Georgia;
+    
+}
+.searchbar button{
+    background-color: #f87171;
+    color: #ffffff;
+    font-weight: 700;
+    width: 275px;
+    height: 48px;
+    margin: 8px 0px 0px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.dis_dur {
+    color: #f43f5e;
+    text-align: left;
+    margin-left: 10px;    
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* End of Search Bar Box CSS*/
+
