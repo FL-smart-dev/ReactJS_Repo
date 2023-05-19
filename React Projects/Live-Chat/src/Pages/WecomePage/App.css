@@ -1,0 +1,57 @@
+.WelcomeBody {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.h1ofwelocmebody {
+    font-size: 40px;
+    width: 590px;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 550;
+}
+
+.h5ofwelocmebody {
+    font-size: 20px;
+    width: 680px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 350;
+}
+
+.newMeetingBtn {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all .5s;
+}
+
+.newMeetingBtn:hover{
+    background-color: #1256af;
+}
+
+.codeOrLinkInput {
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 70%);
+    outline: none;
+}
+
+.joinMeetBtn{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 60%);
+    transition: all .5s;
+}
+
+.joinMeetBtn:hover{
+    color: rgba(0, 0, 0, 90%);
+}

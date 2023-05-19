@@ -1,0 +1,59 @@
+.Meet-Page {
+    background-color: #202124;
+    width: 100vw;
+    min-height: 100vh;
+    color: white;
+}
+
+.settingSection {
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: lighter;
+    align-items: center;
+}
+
+.iconOfSettings i {
+    background-color: #3c4043;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    font-size: 16px !important;
+}
+
+.redWalaBackground {
+    background-color: #ea4335 !important;
+}
+
+.otherIconsOfSettings {
+    display: flex;
+}
+
+.divOfOtherIconsOfSettings {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-self: center;
+    margin: 0 25px;
+}
+
+.divOfOtherIconsOfSettings span {
+    position: absolute;
+    right: -18px;
+    top: -20px;
+    font-size: 13px;
+    width: 23px;
+    height: 23px;
+    background-color: #5f6368;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
