@@ -1,0 +1,365 @@
+.Home {}
+
+
+.headerStyle {
+  height: 80px;
+  /* padding-inline: 50px; */
+  line-height: 80px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .contentStyle {
+    margin: auto;
+    max-width: 1024px;
+  }
+  
+  .footerStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    background-color: #fff;
+  }
+  
+  .heroSectionStyle {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    border-bottom: 0.5px solid #f1f1f1;
+    background-color: #FCF5E8;
+    border-radius: 10px;
+    padding: 1.5rem;
+  }
+  
+  .heroContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 340px;
+    gap: 15px;
+    padding-top: 15px;
+  }
+  
+  .heroContentTitle {
+    font-family: 'geologica-bold';
+    font-size: 2rem;
+    line-height: 1.9rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    color: #023f3b;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .heroSubtitle {
+    font-family: 'geologica-regular';
+    font-size: 0.94175rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.05944rem;
+    letter-spacing: 0.04706rem;
+    color: #03403c;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .heroPromo{
+        /* padding: 20px; */
+    /* margin-top: 20px; */
+    text-align: left;
+    font-family: 'Futura';
+    font-size: 0.98rem;
+    text-transform: uppercase;
+    color: #0f6862;
+    padding-top: 15px;
+    padding-left: 1.3rem;
+    padding-bottom: 20px;
+  }
+
+  .textwrapper {
+    color: #03403c;
+    font-family: "geologica-medium";
+    font-size: 12.2px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0.61px;
+    line-height: 20.4px;
+  
+  
+    white-space: nowrap;
+  }
+
+  .posImageContainer{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  
+  .linkStyle {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .betaButton {
+    font-family: 'geologica-regular';
+    font-weight: 700;
+    font-size: 1.25rem;
+    border-radius: 4px;
+    border-width: 0px;
+    background: #03403c;
+    line-height: 1.25rem;
+    letter-spacing: 0.06rem;
+    color: #fff;
+    /* padding: 10px; */
+    width:300px;
+    height: 44px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/* .betaButton button {
+  color:#fff;
+}
+.betaButton button:hover{
+  text-decoration: underline;
+} */
+  
+  .posImage {
+    max-width: 200px;
+    max-height: 60px;
+  }
+  
+  /* .heroImage {
+    max-width: 579px;
+    max-height: 400px;
+    margin-top: 20px;
+  } */
+  
+  .howItWorksSectionStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.5px solid #f1f1f1;
+    flex-direction: column;
+  }
+  
+  .hiwTitle {
+    color: #2F363D;
+    text-align: center;
+    font-family: 'Futura';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.04725rem;
+    letter-spacing: 0.0625rem;
+    padding: 30px;
+    text-transform: uppercase;
+    display: block;
+  }
+  
+  .hiwContainer{
+    display: flex;
+    flex-direction: row;
+  }
+  .hiwContainer img {
+    
+      max-width: 500px;
+
+  }
+  .hiwHolder {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-wrap: nowrap;
+  }
+  
+  .hiwSecondaryHolder {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 20px;
+    justify-content: center;
+  }
+  
+  .hiwImage {
+    max-height: 150px;
+    max-width: 300px;
+  }
+  
+  .hiwNumeric {
+    color: #57595B;
+    font-family: 'Futura';
+    font-size: 1.06288rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.181rem;
+    letter-spacing: 0.05313rem;
+  }
+  
+  .hiwParagraph {
+    color: #727171;
+    font-family: 'geologica-regular';
+    font-size: 1.00381rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.00094rem;
+    letter-spacing: 0.05019rem;
+    max-width: 15rem;
+  }
+
+  .hiwLink {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    color: #02403c;
+    visibility: hidden;
+    display: none;
+    font-family: 'geologica-bold';
+        font-size: 0.9rem;
+}
+.hiwLink a{
+    text-decoration: none;
+    color: #02403c;
+    
+}
+  
+
+  @media (max-width:723px) {
+
+    .contentStyle {
+      margin: auto;
+      max-width: 375px;
+    }
+    .hiwContainer {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+  }
+  .hiwContainer img {
+    max-width: 320px;
+  }
+   
+
+    .heroContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 340px;
+        gap: 15px;
+        flex-wrap: wrap;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .heroSectionStyle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        border-bottom: 0.5px solid #f1f1f1;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .heroImage {
+        min-width: 100%;
+        max-width: 300px;
+        max-height: 400px;
+        margin-top: 20px;
+    }
+
+    /* .hiwLink {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        color: #02403c;
+    } */
+    .hiwHolder {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hiwLink {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      text-align: center;
+      color: #02403c;
+      visibility:visible;
+      display: block;
+      font-family: 'geologica-bold';
+      font-size: 0.9rem;
+      border: 1px solid #03403c;
+      padding: 1rem;
+      min-width: 300px;
+      border-radius: 0.24rem;
+      text-transform: uppercase;
+     
+  }
+  .hiwLink a{
+      text-decoration: none;
+      color: #02403c;
+  }
+  .hiwLink :hover {
+      text-decoration: underline;
+  }
+
+  .hiwNumeric {
+    color: #fff;
+    font-family: 'geologica-bold';
+    font-size: 1.06288rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.181rem;
+    letter-spacing: 0.05313rem;
+    background-color: #0c5e2d;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: justify;
+    width: 60px;
+    display: flex;
+    height: 60px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+    .hiwSecondaryHolder {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .heroContentTitle {
+        font-family: 'geologica-bold';
+        font-size: 2rem;
+        line-height: 1.98rem;
+        font-style: normal;
+        font-weight: 800;
+        color: #023f3b;
+        -webkit-font-smoothing: antialiased;
+        text-align: center;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    
+  }

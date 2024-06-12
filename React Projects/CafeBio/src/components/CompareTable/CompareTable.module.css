@@ -1,0 +1,134 @@
+
+
+.overlayContainer {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) -1.87%, #FFF 34.53%);
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlaymenu{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.overlayButton {
+  border-radius: 20px;
+  height: 40px;
+  font-family: 'productsans-regular';
+  min-width: 300px;
+  border: 2.112px solid #000;
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  /* font-weight: bold; */
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  /* align-content: center; */
+  align-items: center;
+  justify-content: center;
+}
+
+.CompareTable {
+  position: relative;
+  z-index: 1; /* Ensures the table is under the overlay */
+}
+/* CompareTable{} */
+
+
+.featurename{
+
+  color: #000;
+
+font-family: "productsans-regular";
+font-size: 0.9rem;
+font-style: normal;
+font-weight: 700;
+letter-spacing: 0.04238rem;
+text-transform: capitalize;
+}
+
+.tablecontainer {
+  width: 80%;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; /* Ensures consistent column widths */
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #ddd;
+  min-width: 20%; /* Even distribution of column widths */
+}
+
+/* Remove left border from the first cell of each row */
+th:first-child, td:first-child {
+  border-left: none;
+}
+
+/* Additional styling for the first column cells */
+th:first-child, td:first-child {
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+}
+
+/* Remove top border specifically from the top-left cell */
+th:first-child {
+  border-top: none;
+}
+
+td:nth-child(2), th:nth-child(2) {
+  background-color: #F4F6F9; /* Cool grey color */
+}
+
+thead {
+  background-color: #fff;
+}
+
+.mainimg{
+max-height: 43px;
+}
+.competitorimg{
+  max-height: 20px;
+}
+
+@media (max-width: 724px) {
+  th, td {
+    padding: 5px;
+    font-size: 14px;
+  }
+  .overlayContainer {
+    position: relative;
+    max-width: 350px;
+    margin: auto;
+  }
+  .mainimg{
+    max-height: 20px;
+    }
+    .tablecontainer {
+      max-width: 350px;
+      margin: auto;
+    }
+    .competitorimg{
+      max-height: 12px;
+    }
+}

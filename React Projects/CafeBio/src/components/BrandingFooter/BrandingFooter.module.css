@@ -1,0 +1,12 @@
+.BrandingFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.BrandingFooter img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding: 20px;
+}

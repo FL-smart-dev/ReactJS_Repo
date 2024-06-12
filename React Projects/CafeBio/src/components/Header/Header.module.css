@@ -1,0 +1,72 @@
+.Header {}
+.headerholder{
+    height:64px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'productsans-regular';
+        font-size: 1.75rem;
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        text-transform: capitalize;
+
+gap: 10rem;
+}
+.headermenu{
+
+}
+.headermenu ul{
+    margin-top: auto;
+    list-style-type: none;
+}
+.headermenu li{
+    display: inline;
+    padding: 20px ;
+}
+.logoimage img{
+  width: 100px;
+  height: 60px;
+  margin: 10px;
+}
+.link {
+    text-decoration: none;
+    color: inherit; 
+  }
+  
+  .link:hover {
+    color: #000;
+    text-decoration: underline;
+  }
+
+
+  @media (min-width:375px) and (max-width:724px) {
+    .headerholder{
+        height:64px;
+        display: flex;
+        flex-direction: column;
+        font-family: 'productsans-regular';
+        font-size: 1.75rem;
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+        gap: 15px;
+        color: #000;
+    }
+    .headermenu{
+      visibility: hidden;
+      height: 0px;
+      overflow: hidden;
+    }
+    .headermenu ul{
+        margin-top: auto;
+        list-style-type: none;
+    }
+    .headermenu li{
+        /* display: inline; */
+        padding: 20px ;
+    }
+
+    
+  }

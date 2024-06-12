@@ -1,0 +1,13 @@
+.scroll-container {
+    flex-direction: row;
+    display: flex;
+
+    gap: 15px;
+}
+
+.scroll-item {
+    flex-direction: row;
+    display: flex;
+    /* padding: 10px; */
+    gap: 15px;
+}

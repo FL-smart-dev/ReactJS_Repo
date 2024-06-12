@@ -1,0 +1,49 @@
+.contents{
+    display: flex;
+    flex-direction: column;
+}
+.linkCardStyle  {
+    border-radius: 8px;
+    min-height: 120px;
+    min-width: 275px;
+    max-width: 275px;
+    max-height: 120px;
+    font-family: 'productsans-regular';
+}
+
+.linkCardStyle span {
+  font-family: 'productsans-regular';
+}
+
+.link-title {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    font-family: 'productsans-regular';
+    /* color: #000; */
+    /* text-decoration: line-through;
+    text-decoration-color: #9C27B0; */
+  }
+  
+  .link-subtitle {
+    font-size: 0.8rem;
+    line-height:0.8rem;
+    font-family: 'productsans-regular';
+    color: #403f3f;
+  }
+  
+  .link-arrow {
+    font-size: 24px;
+    color: #000;
+  }
+  .prevButton {
+    color: white;
+    background-color: #393939;
+    min-width: fit-content;
+    border-radius: 20px;
+    width: 25%;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 0px;
+    margin-left: 20px;
+  }

@@ -1,0 +1,98 @@
+.PricingTable {
+    /* max-width: 80%; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    flex-wrap: wrap; /* Allow cards to wrap as needed */
+  }
+  
+  .planCard {
+    flex: 1; /* Each card will grow to fill the space */
+    border: 0.1rem solid #817f7f;
+    padding: 2rem;
+    margin: 1rem;
+    min-width: 17.5rem; /* Minimum width to maintain layout integrity */
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  }
+  
+  .planHeader {
+    font-size: 1.5rem;
+    color: #000;
+    text-align: center;
+    margin-bottom: .5rem;
+    font-family: 'productsans-medium';
+    text-transform: capitalize;
+  }
+  .plansubtitle{
+    font-family: 'productsans-regular';
+    font-size: 1rem;
+    color:#817f7f;
+  }
+  
+  .featureList {
+    flex-grow: 1;
+    padding: 1rem;
+  }
+  
+  .featureItem {
+    margin: 1rem 0;
+    display: flex;
+    color: #1e1e1e;
+    align-items: center;
+    font-family: 'productsans-regular'
+  }
+  
+  .icon {
+    color: green;
+    margin-right: 0.5rem;
+  }
+  
+  .priceButtonContainer {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .priceButton {
+    padding: 1rem;
+    background-color: #03403c;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .pricingblock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (min-width: 375px) and (max-width: 724px) { /* Adjust for mobile devices */
+    .PricingTable {
+      flex-direction: column; /* Stack cards vertically on smaller screens */
+      align-items: center;
+    }
+  
+    .planCard {
+      width: 100%; /* Full width cards on smaller screens */
+      max-width: 36rem; /* Max width to prevent overly wide cards */
+      margin: 0.5rem; /* Adjust margin for mobile layout */
+    }
+  
+    .planHeader {
+      font-size: 1.2rem; /* Adjust header font size for mobile */
+    }
+  
+    .priceButton {
+      font-size: 1rem; /* Adjust button font size for easier interaction on mobile */
+    }
+  }
+  

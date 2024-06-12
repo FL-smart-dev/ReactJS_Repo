@@ -1,0 +1,1118 @@
+@font-face { font-family:BergenText-Bold;src: url(./fonts/BergenText-Bold.otf);}
+@font-face { font-family:BergenText-SemiBoldItalic;src: url(./fonts/BergenText-SemiBoldItalic.otf);}
+@font-face { font-family:BergenText-SemiBold;src: url(./fonts/BergenText-SemiBold.otf);}
+@font-face { font-family:BergenText-Regular;src: url(./fonts/BergenText-Regular.otf);}
+@font-face { font-family:BergenText-Italic;src: url(./fonts/BergenText-Italic.otf);}
+@font-face { font-family:BergenText-BoldItalic;src: url(./fonts/BergenText-BoldItalic.otf);}
+@font-face { font-family:brooklyn-bold;src: url(./fonts/Brooklyn-Bold.ttf);}
+@font-face { font-family:brooklyn-bolditalic;src: url(./fonts/Brooklyn-BoldItalic.ttf);}
+@font-face { font-family:brooklyn-heavy;src: url(./fonts/Brooklyn-Heavy.ttf);}
+@font-face { font-family:brooklyn-heavyitalic;src: url(./fonts/Brooklyn-HeavyItalic.ttf);}
+@font-face { font-family:brooklyn-italic;src: url(./fonts/Brooklyn-Italic.ttf);}
+@font-face { font-family:brooklyn-normal;src: url(./fonts/Brooklyn-Normal.ttf);}
+@font-face { font-family:brooklyn-semibold;src: url(./fonts/Brooklyn-SemiBold.ttf);}
+@font-face { font-family:brooklyn-semibolditalic;src: url(./fonts/Brooklyn-SemiBoldItalic.ttf);}
+@font-face { font-family:bernoru-blackultraexpanded;src: url(./fonts/Bernoru-BlackUltraExpanded.otf);}
+@font-face { font-family:geologica_auto-black;src: url(./fonts/Geologica_Auto-Black.ttf);}
+@font-face { font-family:geologica_auto-bold;src: url(./fonts/Geologica_Auto-Bold.ttf);}
+@font-face { font-family:geologica_auto-extrabold;src: url(./fonts/Geologica_Auto-ExtraBold.ttf);}
+@font-face { font-family:geologica_auto-extralight;src: url(./fonts/Geologica_Auto-ExtraLight.ttf);}
+@font-face { font-family:geologica_auto-light;src: url(./fonts/Geologica_Auto-Light.ttf);}
+@font-face { font-family:geologica_auto-medium;src: url(./fonts/Geologica_Auto-Medium.ttf);}
+@font-face { font-family:geologica_auto-regular;src: url(./fonts/Geologica_Auto-Regular.ttf);}
+@font-face { font-family:geologica_auto-semibold;src: url(./fonts/Geologica_Auto-SemiBold.ttf);}
+@font-face { font-family:geologica_auto-thin;src: url(./fonts/Geologica_Auto-Thin.ttf);}
+@font-face { font-family:geologica_cursive-black;src: url(./fonts/Geologica_Cursive-Black.ttf);}
+@font-face { font-family:geologica_cursive-bold;src: url(./fonts/Geologica_Cursive-Bold.ttf);}
+@font-face { font-family:geologica_cursive-extrabold;src: url(./fonts/Geologica_Cursive-ExtraBold.ttf);}
+@font-face { font-family:geologica_cursive-extralight;src: url(./fonts/Geologica_Cursive-ExtraLight.ttf);}
+@font-face { font-family:geologica_cursive-light;src: url(./fonts/Geologica_Cursive-Light.ttf);}
+@font-face { font-family:geologica_cursive-medium;src: url(./fonts/Geologica_Cursive-Medium.ttf);}
+@font-face { font-family:geologica_cursive-regular;src: url(./fonts/Geologica_Cursive-Regular.ttf);}
+@font-face { font-family:geologica_cursive-semibold;src: url(./fonts/Geologica_Cursive-SemiBold.ttf);}
+@font-face { font-family:geologica_cursive-thin;src: url(./fonts/Geologica_Cursive-Thin.ttf);}
+@font-face { font-family:geologica-black;src: url(./fonts/Geologica-Black.ttf);}
+@font-face { font-family:geologica-bold;src: url(./fonts/Geologica-Bold.ttf);}
+@font-face { font-family:geologica-extrabold;src: url(./fonts/Geologica-ExtraBold.ttf);}
+@font-face { font-family:geologica-extralight;src: url(./fonts/Geologica-ExtraLight.ttf);}
+@font-face { font-family:geologica-light;src: url(./fonts/Geologica-Light.ttf);}
+@font-face { font-family:geologica-medium;src: url(./fonts/Geologica-Medium.ttf);}
+@font-face { font-family:geologica-regular;src: url(./fonts/Geologica-Regular.ttf);}
+@font-face { font-family:geologica-semibold;src: url(./fonts/Geologica-SemiBold.ttf);}
+@font-face { font-family:geologica-thin;src: url(./fonts/Geologica-Thin.ttf);}
+@font-face { font-family:gilroy extrabold;src: url('./fonts/Gilroy ExtraBold.ttf');}
+@font-face { font-family:ibmplexmono-bold;src: url(./fonts/IBMPlexMono-Bold.ttf);}
+@font-face { font-family:ibmplexmono-bolditalic;src: url(./fonts/IBMPlexMono-BoldItalic.ttf);}
+@font-face { font-family:ibmplexmono-extralight;src: url(./fonts/IBMPlexMono-ExtraLight.ttf);}
+@font-face { font-family:ibmplexmono-extralightitalic;src: url(./fonts/IBMPlexMono-ExtraLightItalic.ttf);}
+@font-face { font-family:ibmplexmono-italic;src: url(./fonts/IBMPlexMono-Italic.ttf);}
+@font-face { font-family:ibmplexmono-light;src: url(./fonts/IBMPlexMono-Light.ttf);}
+@font-face { font-family:ibmplexmono-lightitalic;src: url(./fonts/IBMPlexMono-LightItalic.ttf);}
+@font-face { font-family:ibmplexmono-medium;src: url(./fonts/IBMPlexMono-Medium.ttf);}
+@font-face { font-family:ibmplexmono-mediumitalic;src: url(./fonts/IBMPlexMono-MediumItalic.ttf);}
+@font-face { font-family:ibmplexmono-regular;src: url(./fonts/IBMPlexMono-Regular.ttf);}
+@font-face { font-family:ibmplexmono-semibold;src: url(./fonts/IBMPlexMono-SemiBold.ttf);}
+@font-face { font-family:ibmplexmono-semibolditalic;src: url(./fonts/IBMPlexMono-SemiBoldItalic.ttf);}
+@font-face { font-family:ibmplexmono-thin;src: url(./fonts/IBMPlexMono-Thin.ttf);}
+@font-face { font-family:ibmplexmono-thinitalic;src: url(./fonts/IBMPlexMono-ThinItalic.ttf);}
+@font-face { font-family:acesans;src: url(./fonts/AceSans.otf);}
+@font-face { font-family:acesans-black;src: url(./fonts/AceSans-Black.otf);}
+@font-face { font-family:acesans-bold;src: url(./fonts/AceSans-Bold.otf);}
+@font-face { font-family:acesans-extrabold;src: url(./fonts/AceSans-Extrabold.otf);}
+@font-face { font-family:acesans-extralight;src: url(./fonts/AceSans-Extralight.otf);}
+@font-face { font-family:acesans-light;src: url(./fonts/AceSans-Light.otf);}
+@font-face { font-family:acesans-medium;src: url(./fonts/AceSans-Medium.otf);}
+@font-face { font-family:acesans-thin;src: url(./fonts/AceSans-Thin.otf);}
+@font-face { font-family:cleon-bold;src: url(./fonts/Cleon-Bold.otf);}
+@font-face { font-family:cleon-light;src: url(./fonts/Cleon-Light.otf);}
+@font-face { font-family:cleon;src: url(./fonts/Cleon.otf);}
+@font-face { font-family:departura-bold;src: url(./fonts/Departura-Bold.otf);}
+@font-face { font-family:departura-bolditalic;src: url(./fonts/Departura-BoldItalic.otf);}
+@font-face { font-family:departura-italic;src: url(./fonts/Departura-Italic.otf);}
+@font-face { font-family:departura-regular;src: url(./fonts/Departura-Regular.otf);}
+@font-face { font-family:foster-black;src: url(./fonts/Foster-Black.ttf);}
+@font-face { font-family:foster-bold;src: url(./fonts/Foster-Bold.ttf);}
+@font-face { font-family:foster-light;src: url(./fonts/Foster-Light.ttf);}
+@font-face { font-family:foster-regular;src: url(./fonts/Foster-Regular.ttf);}
+@font-face { font-family:hashpipe;src: url(./fonts/HashPipe.ttf);}
+@font-face { font-family:opera-blackoblique;src: url(./fonts/Opera-BlackOblique.otf);}
+@font-face { font-family:opera-boldoblique;src: url(./fonts/Opera-BoldOblique.otf);}
+@font-face { font-family:opera-inlineoblique;src: url(./fonts/Opera-InlineOblique.otf);}
+@font-face { font-family:opera-lightoblique;src: url(./fonts/Opera-LightOblique.otf);}
+@font-face { font-family:opera-mediumoblique;src: url(./fonts/Opera-MediumOblique.otf);}
+@font-face { font-family:opera-outlineoblique;src: url(./fonts/Opera-OutlineOblique.otf);}
+@font-face { font-family:opera-regularoblique;src: url(./fonts/Opera-RegularOblique.otf);}
+@font-face { font-family:opera-stenciloblique;src: url(./fonts/Opera-StencilOblique.otf);}
+@font-face { font-family:opera-thinoblique;src: url(./fonts/Opera-ThinOblique.otf);}
+@font-face { font-family:opera-westernoblique;src: url(./fonts/Opera-WesternOblique.otf);}
+@font-face { font-family:prodasans-black;src: url(./fonts/ProdaSans-Black.otf);}
+@font-face { font-family:prodasans-blackitalic;src: url(./fonts/ProdaSans-BlackItalic.otf);}
+@font-face { font-family:prodasans-bold;src: url(./fonts/ProdaSans-Bold.otf);}
+@font-face { font-family:prodasans-bolditalic;src: url(./fonts/ProdaSans-BoldItalic.otf);}
+@font-face { font-family:prodasans-book;src: url(./fonts/ProdaSans-Book.otf);}
+@font-face { font-family:prodasans-bookitalic;src: url(./fonts/ProdaSans-BookItalic.otf);}
+@font-face { font-family:prodasans-extrabold;src: url(./fonts/ProdaSans-ExtraBold.otf);}
+@font-face { font-family:prodasans-extrabolditalic;src: url(./fonts/ProdaSans-ExtraBoldItalic.otf);}
+@font-face { font-family:prodasans-italic;src: url(./fonts/ProdaSans-Italic.otf);}
+@font-face { font-family:prodasans-light;src: url(./fonts/ProdaSans-Light.otf);}
+@font-face { font-family:prodasans-lightitalic;src: url(./fonts/ProdaSans-LightItalic.otf);}
+@font-face { font-family:prodasans-medium;src: url(./fonts/ProdaSans-Medium.otf);}
+@font-face { font-family:prodasans-mediumitalic;src: url(./fonts/ProdaSans-MediumItalic.otf);}
+@font-face { font-family:prodasans-regular;src: url(./fonts/ProdaSans-Regular.otf);}
+@font-face { font-family:prodasans-semibold;src: url(./fonts/ProdaSans-SemiBold.otf);}
+@font-face { font-family:prodasans-semibolditalic;src: url(./fonts/ProdaSans-SemiBoldItalic.otf);}
+@font-face { font-family:prodasans-thin;src: url(./fonts/ProdaSans-Thin.otf);}
+@font-face { font-family:prodasans-thinitalic;src: url(./fonts/ProdaSans-ThinItalic.otf);}
+@font-face { font-family:rnssanz-black;src: url(./fonts/RNSSanz-Black.otf);}
+@font-face { font-family:rnssanz-bold;src: url(./fonts/RNSSanz-Bold.otf);}
+@font-face { font-family:rnssanz-extrabold;src: url(./fonts/RNSSanz-ExtraBold.otf);}
+@font-face { font-family:rnssanz-light;src: url(./fonts/RNSSanz-Light.otf);}
+@font-face { font-family:rnssanz-medium;src: url(./fonts/RNSSanz-Medium.otf);}
+@font-face { font-family:rnssanz-normal;src: url(./fonts/RNSSanz-Normal.otf);}
+@font-face { font-family:rnssanz-semibold;src: url(./fonts/RNSSanz-SemiBold.otf);}
+@font-face { font-family:spot-italic;src: url(./fonts/Spot-Italic.ttf);}
+@font-face { font-family:spot-normal;src: url(./fonts/Spot-Normal.ttf);}
+@font-face { font-family:spot-outline;src: url(./fonts/Spot-Outline.ttf);}
+@font-face { font-family:spot-outlineitalic;src: url(./fonts/Spot-OutlineItalic.ttf);}
+@font-face { font-family:trajan pro regular;src: url('./fonts/Trajan Pro Regular.ttf');}
+@font-face { font-family:panoragraf regular;src: url('./fonts/Panoragraf Regular.ttf');}
+@font-face { font-family:panoragraf light;src: url('./fonts/Panoragraf Light.ttf');}
+@font-face { font-family:mujair;src: url('./fonts/Mujair.ttf');}
+@font-face { font-family:kenue;src: url('./fonts/Kenue.ttf');}
+
+@font-face { font-family:opensans_condensed-bold;src: url(./fonts/OpenSans_Condensed-Bold.ttf);}
+@font-face { font-family:opensans_condensed-bolditalic;src: url(./fonts/OpenSans_Condensed-BoldItalic.ttf);}
+@font-face { font-family:opensans_condensed-extrabold;src: url(./fonts/OpenSans_Condensed-ExtraBold.ttf);}
+@font-face { font-family:opensans_condensed-extrabolditalic;src: url(./fonts/OpenSans_Condensed-ExtraBoldItalic.ttf);}
+@font-face { font-family:opensans_condensed-italic;src: url(./fonts/OpenSans_Condensed-Italic.ttf);}
+@font-face { font-family:opensans_condensed-light;src: url(./fonts/OpenSans_Condensed-Light.ttf);}
+@font-face { font-family:opensans_condensed-lightitalic;src: url(./fonts/OpenSans_Condensed-LightItalic.ttf);}
+@font-face { font-family:opensans_condensed-medium;src: url(./fonts/OpenSans_Condensed-Medium.ttf);}
+@font-face { font-family:opensans_condensed-mediumitalic;src: url(./fonts/OpenSans_Condensed-MediumItalic.ttf);}
+@font-face { font-family:opensans_condensed-regular;src: url(./fonts/OpenSans_Condensed-Regular.ttf);}
+@font-face { font-family:opensans_condensed-semibold;src: url(./fonts/OpenSans_Condensed-SemiBold.ttf);}
+@font-face { font-family:opensans_condensed-semibolditalic;src: url(./fonts/OpenSans_Condensed-SemiBoldItalic.ttf);}
+@font-face { font-family:opensans_semicondensed-bold;src: url(./fonts/OpenSans_SemiCondensed-Bold.ttf);}
+@font-face { font-family:opensans_semicondensed-bolditalic;src: url(./fonts/OpenSans_SemiCondensed-BoldItalic.ttf);}
+@font-face { font-family:opensans_semicondensed-extrabold;src: url(./fonts/OpenSans_SemiCondensed-ExtraBold.ttf);}
+@font-face { font-family:opensans_semicondensed-extrabolditalic;src: url(./fonts/OpenSans_SemiCondensed-ExtraBoldItalic.ttf);}
+@font-face { font-family:opensans_semicondensed-italic;src: url(./fonts/OpenSans_SemiCondensed-Italic.ttf);}
+@font-face { font-family:opensans_semicondensed-light;src: url(./fonts/OpenSans_SemiCondensed-Light.ttf);}
+@font-face { font-family:opensans_semicondensed-lightitalic;src: url(./fonts/OpenSans_SemiCondensed-LightItalic.ttf);}
+@font-face { font-family:opensans_semicondensed-medium;src: url(./fonts/OpenSans_SemiCondensed-Medium.ttf);}
+@font-face { font-family:opensans_semicondensed-mediumitalic;src: url(./fonts/OpenSans_SemiCondensed-MediumItalic.ttf);}
+@font-face { font-family:opensans_semicondensed-regular;src: url(./fonts/OpenSans_SemiCondensed-Regular.ttf);}
+@font-face { font-family:opensans_semicondensed-semibold;src: url(./fonts/OpenSans_SemiCondensed-SemiBold.ttf);}
+@font-face { font-family:opensans_semicondensed-semibolditalic;src: url(./fonts/OpenSans_SemiCondensed-SemiBoldItalic.ttf);}
+@font-face { font-family:opensans-bold;src: url(./fonts/OpenSans-Bold.ttf);}
+@font-face { font-family:opensans-bolditalic;src: url(./fonts/OpenSans-BoldItalic.ttf);}
+@font-face { font-family:opensans-extrabold;src: url(./fonts/OpenSans-ExtraBold.ttf);}
+@font-face { font-family:opensans-extrabolditalic;src: url(./fonts/OpenSans-ExtraBoldItalic.ttf);}
+@font-face { font-family:opensans-italic;src: url(./fonts/OpenSans-Italic.ttf);}
+@font-face { font-family:opensans-light;src: url(./fonts/OpenSans-Light.ttf);}
+@font-face { font-family:opensans-lightitalic;src: url(./fonts/OpenSans-LightItalic.ttf);}
+@font-face { font-family:opensans-medium;src: url(./fonts/OpenSans-Medium.ttf);}
+@font-face { font-family:opensans-mediumitalic;src: url(./fonts/OpenSans-MediumItalic.ttf);}
+@font-face { font-family:opensans-regular;src: url(./fonts/OpenSans-Regular.ttf);}
+@font-face { font-family:opensans-semibold;src: url(./fonts/OpenSans-SemiBold.ttf);}
+@font-face { font-family:opensans-semibolditalic;src: url(./fonts/OpenSans-SemiBoldItalic.ttf);}
+
+@font-face { font-family:productsans-black;src: url(./fonts/ProductSans-Black.ttf);}
+@font-face { font-family:productsans-blackitalic;src: url(./fonts/ProductSans-BlackItalic.ttf);}
+@font-face { font-family:productsans-bold;src: url(./fonts/ProductSans-Bold.ttf);}
+@font-face { font-family:productsans-bolditalic;src: url(./fonts/ProductSans-BoldItalic.ttf);}
+@font-face { font-family:productsans-italic;src: url(./fonts/ProductSans-Italic.ttf);}
+@font-face { font-family:productsans-light;src: url(./fonts/ProductSans-Light.ttf);}
+@font-face { font-family:productsans-lightitalic;src: url(./fonts/ProductSans-LightItalic.ttf);}
+@font-face { font-family:productsans-medium;src: url(./fonts/ProductSans-Medium.ttf);}
+@font-face { font-family:productsans-mediumitalic;src: url(./fonts/ProductSans-MediumItalic.ttf);}
+@font-face { font-family:productsans-regular;src: url(./fonts/ProductSans-Regular.ttf);}
+@font-face { font-family:productsans-thin;src: url(./fonts/ProductSans-Thin.ttf);}
+@font-face { font-family:productsans-thinitalic;src: url(./fonts/ProductSans-ThinItalic.ttf);}
+
+
+body{background-color: #FFF;}
+.App {
+  text-align: center;
+  font-smooth: always;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+ @media screen and (max-width: 500px) {
+  input, select, textarea {
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #d9d9d9;
+    min-width: 250px;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.h1header{
+  font-family: 'productsans-black';
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: normal; 
+  /* line-height: normal; */
+  letter-spacing: 0.075rem;
+  padding-left: 1rem;
+  color: #000;
+  /* font-style: normal;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 2rem;
+  /* text-align: center; */
+  /* letter-spacing: 0.01em;
+  padding-left: 1rem;
+  text-transform: capitalize;
+  margin-bottom: 0.25rem;
+  color: #737373; */ 
+}
+.h2header{
+  font-family: 'BergenText-SemiBold';
+  font-style: normal;
+  font-weight: normal; 
+  font-size: 1rem;
+  line-height: 1.5rem;
+  /* text-align: center; */
+  letter-spacing: 0.01em;
+  padding-left: 1rem;
+  text-transform: capitalize;
+  margin-bottom: 0.25rem;
+  color: #737373;
+}
+.subtitle{
+font-family: 'BergenText-Regular';
+font-style: normal;
+font-size: 0.9rem;
+line-height: 0.9rem;
+/* text-align: center; */
+letter-spacing: 0.05em;
+padding-left: 1rem;
+padding-right: 1rem;
+margin-bottom: 10px;
+display: block;
+}
+
+.font-dropdown {
+  position: relative;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    min-width: 300px;
+}
+.font-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.font-dropdown:hover .font-dropdown-content {
+  display: block;
+}
+
+
+/* Redeem Screen */
+
+.redeemForm{
+margin-left: 10px;
+margin-right: 10px;
+padding: 10px;
+}
+
+.redeemForm label{
+  font-family: 'BergenText-Regular';
+  font-style: normal;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  /* text-align: center; */
+  letter-spacing: 0.05em;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  display: block;
+}
+
+.redeemForm Button{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 44px;
+  
+}
+.redeemFormItemInput{
+  width: 60%;
+  font-size: 16px;
+}
+.listScroller {
+  width: 100%;
+  height: 50px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  overflow: scroll;
+  margin-top: 15px;
+
+}
+.listScroller::-webkit-scrollbar {
+  display: none;
+}
+.scroller-horizontal{
+
+  flex-direction: row;
+  display: flex;
+  /* padding: 10px; */
+  gap: 15px;
+}
+.scroller-horizontal a{
+  text-decoration: none;
+  font-family: 'opensans-regular';
+  text-overflow: ellipsis;
+
+color: rgba(0, 0, 0, 0.55);
+font-size: 0.9rem;
+font-style: normal;
+font-weight: 800;
+white-space: normal;
+line-height: 0.9281rem; /* 94.849% */
+letter-spacing: 0.03125rem;
+}
+.scroller-horizontal::-webkit-scrollbar {
+  display: none;
+ 
+}
+.headerRailItem{
+  padding: 10px;
+font-family: 'productsans-medium';
+color:#000;
+    min-width: 60px;
+    max-height: 60px;
+
+    text-align: center;
+
+  font-size: 0.9rem;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+letter-spacing: 0.05169rem;
+
+ 
+}
+.headerRailItem .icon{ margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  width: 16px;
+  height: 16px;
+}
+.headerRailItem .glass{ margin-left: 0.5rem;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #00000058 0%, rgba(217, 217, 217, 0) 100%);
+}
+
+
+
+
+
+/* Redeem Screen */
+
+
+/* Promo Screen */
+.brandingHolder{
+  flex-direction: row;
+  display: flex;
+  padding: 0.3rem;
+  gap: 10px;
+  /* box-shadow: 0 1px 2px 0 rgba(0,0,0,.15); */
+  /* background-color: white; */
+  margin-bottom: 0.3rem;
+  min-width: 300px;
+align-items: center;
+  margin-top: 10px;
+}
+
+/* .brandingHolder {
+  flex-direction: row;
+  display: flex;
+  padding: 0.3rem;
+  gap: 10px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.15);
+  background-color: white;
+  margin-bottom: 0.3rem;
+  margin-right: 0.3rem;
+  margin-left: 0.8rem;
+  border-radius: 60px;
+  margin-top: 30px;
+  position: fixed;
+  z-index: 1;
+  width: 90%;
+} */
+
+
+.brandingProfilePic{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  background-color: #d9d9d9;
+  /* background-image: url("./images/cafeluna.png"); */
+  background-size:contain ;
+  background-repeat: no-repeat ;
+  border: 1px solid #c4bdbd;
+}
+.brandingHeader {
+  font-family: 'productsans-medium';
+  color: #000;
+  text-align: center;
+  padding-top: 0px;
+  text-transform: capitalize;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: normal; 
+  line-height: normal;
+  letter-spacing: 0.09375rem;
+  
+}
+.brandingHeader .handlename{
+  font-family: 'productsans-medium';
+  font-size: 0.60rem;
+font-style: normal;
+font-weight: normal; 
+line-height: normal;
+letter-spacing: 0.0375rem;
+color: rgba(0, 0, 0, 0.50);
+text-align: left;
+}
+
+
+.promoHolder {
+  display: flex;
+  background-color: #fff;
+  margin-bottom: 1.1rem;
+  border: 0.974353px solid rgba(228, 227, 227, 0.72);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  min-height: 165px;
+  /* min-width: 300px; */
+  max-width: 500px;
+  justify-content: center;
+  overflow: hidden;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+/* .promoHeader {
+  background-color: rgb(255, 215, 1);
+    min-width: 300px;
+    min-height: 120px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+} */
+
+.promoHeader {
+  background-color: rgb(255, 215, 1);
+    min-width: 300px;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.promoFooter {
+
+}
+.promoCopyHolder {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.6rem;
+  margin-top: 0.9rem;
+  margin-bottom: 0.9rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.promoCopyHolder .promoTitle {
+  color: #313131;
+  font-family: 'productsans-black';
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: normal; 
+  line-height: 1.2731rem;
+  letter-spacing: 0.03081rem;
+  text-transform: capitalize;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.promoCopyHolder .promoBody {
+  color: #5A5757;
+  font-family: 'productsans-medium';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: normal; 
+  line-height: 1.4rem;
+  letter-spacing: 0.02656rem;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.promoHeader .promoImage {
+  height: 160px;
+  width: 160px;
+  border-radius: 55px;
+  margin: 5px;
+ 
+}
+
+
+.promoCopyHolder_linkholder{
+  background-color: #393939;
+  width: 100px;
+  padding: 0.5rem;
+  border-radius: 20px;
+  border: 0px;
+  text-align: center;
+}
+.promoCopyHolder a{
+  color: #fff;
+  font-family: 'productsans-medium';
+  font-style: normal;
+  /* font-weight: 600; */
+  font-size: 1rem;
+  text-decoration: none;
+  display: block;
+
+}
+
+
+.promoLeft{
+  height: inherit;
+  width:55%;
+  border-radius: 6px 0px 0px 6px;
+  padding: 0.8rem;
+}
+
+
+
+
+
+.promoLeft .title{
+  font-family: 'BergenText-SemiBoldItalic';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: white;
+  letter-spacing: 0.05em;
+  min-width: 185px;
+  margin-bottom: 15px;
+}
+.promoLeft .subtitle{
+  font-family: 'BergenText-Italic';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.15rem;
+  color: white;
+  letter-spacing: 0.02em;
+  padding-left: 0px;
+  /* padding-right: 1rem; */
+  margin-bottom: 15px;
+  display: block;
+
+  }
+
+.promoRight{
+  width: 50%;
+}
+/* .promoRight .promoimage{
+  width: 100%;
+  height: 100%;
+  border-radius: 90px 6px 6px 0px;
+  object-fit: cover;
+}
+/* .promoRight .promoimage {
+  width: 150px;
+  height: 150px;
+  border-radius: 90px 90px 90px 90px;
+  object-fit: cover;
+  margin: 12px;
+} */ 
+.promoButton{
+  background-color: white;
+  color: #0C1E27;
+    width: 90%;
+    height: 40px;
+    border-radius: 20px;
+    padding: 5px;
+    /* margin: 15px; */
+    margin-top: 20px;
+    border: 0px;
+    font-family: 'BergenText-SemiBold';
+font-style: normal;
+font-weight: normal; 
+font-size: 1rem;
+line-height: 18px;
+}
+
+/* End Promo Screen */
+
+/* MINI  */
+
+.minipromoHolder{
+  flex-direction: row;
+  display: flex;
+  /* gap: 10px; */
+  background-color: #0C1E27;
+  margin-bottom: 0.8rem;
+  border: 0.974353px solid rgba(228, 227, 227, 0.72);
+  /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25); */
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* min-height: 100px; */
+  max-height: 110px;
+
+}
+
+.minipromoHolder{
+  flex-direction: row;
+    display: flex;
+    /* gap: 10px; */
+    background-color: #0C1E27;
+    margin-bottom: 0.8rem;
+    border: 0.974353px solid rgba(228, 227, 227, 0.72);
+    /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25); */
+    border-radius: 6px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    /* min-height: 165px; */
+    max-height: 80px;
+    /* min-width: 350px; */
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.minipromoLeft{
+  height: 80px;
+  border-radius: 6px 0px 0px 6px;
+}
+
+.minipromoLeft_linkholder{
+   background-color: white; 
+  color: #000;
+  width: 100%;
+  /* height: 40px; */
+  border-radius: 20px;
+  /* margin: auto; */
+  border: 1px solid #fff;
+  /* padding-top: 8px;*/
+}
+.minipromoLeft a{
+  color: #0C1E27;
+  font-family: 'BergenText-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 18px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 12px;
+}
+
+
+.minipromoLeft .title{
+  font-family: 'BergenText-BoldItalic';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.1rem;
+  line-height: 1rem;
+  color: white;
+  letter-spacing: 0.05em;
+  margin-bottom: 15px;
+  margin: 0.5rem
+
+}
+.minipromoLeft .subtitle{
+  font-family: 'BergenText-Italic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+    color: white;
+    letter-spacing: 0.02em;
+    padding-left: 0px;
+    /* padding-right: 1rem; */
+    margin-bottom: 15px;
+    display: block;
+    margin: 0.6rem;
+  }
+
+.minipromoRight{
+  height: 80px;
+  width: 100px;
+}
+.minipromoRight .promoimage{
+  width: 100%;
+  height: 100%;
+  border-radius: 0px 6px 6px 0px;
+  object-fit: cover;
+}
+
+
+
+
+/* END MINI  */
+
+/* IG STUFF */
+
+.sm_portraitdiv{
+  width: 375px;
+  height: 667px;
+}
+.sm_squarediv{
+  width: 375px;
+  height: 375px;
+}
+.portraitSubtitle{
+  max-width: 320px;
+    overflow: hidden;
+    font-family: 'BergenText-Italic';
+  font-style: normal;
+  font-weight: normal; 
+  font-size: 1.8rem;
+  line-height: 1.9rem;
+  color: white;
+  letter-spacing: 0.02em;
+  padding-left: 0px;
+  /* padding-right: 1rem; */
+  margin-bottom: 15px;
+  display: block;
+  margin: 0.6rem;
+  text-align: center;
+}
+
+.igpromoHolder{
+  flex-direction: column;
+  display: flex;
+  /* gap: 10px; */
+  /* background-color: #0C1E27; */
+  /* margin-bottom: 0.8rem; */
+  /* border: 0.974353px solid rgba(228, 227, 227, 0.72); */
+  /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25); */
+   border-radius: 6px; 
+  /* margin-left: 15px; */
+  /* margin-right: 10px; */
+  /* min-height: 165px; */
+  height: 667px;
+  max-height: 844px;
+  /* min-width: 350px; */
+  max-width: 375px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.igpromoLeft{
+  /* height: 180px; */
+  /* width: 55%; */
+  /* border-radius: 4px 0px 0px 4px; */
+  padding: 0.7rem;
+}
+
+.igpromoLeft_linkholder{
+   background-color: white; 
+  color: #000;
+  width: 100%;
+  /* height: 40px; */
+  border-radius: 20px;
+  /* margin: auto; */
+  border: 1px solid #fff;
+  /* padding-top: 8px;*/
+}
+.igpromoLeft a{
+  color: #0C1E27;
+  font-family: 'BergenText-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 18px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 12px;
+}
+
+
+.igpromoLeft .title{
+  font-family: 'opensans_semicondensed-extrabold';
+    font-style: normal;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 3.6rem;
+    color: white;
+    letter-spacing: 0.05em;
+    margin-bottom: 15px;
+    margin: 0.5rem;
+    text-align: center;
+}
+.igpromoLeft .subtitle{
+  font-family: 'BergenText-Italic';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.9rem;
+  color: white;
+  letter-spacing: 0.02em;
+  padding-left: 0px;
+  /* padding-right: 1rem; */
+  margin-bottom: 15px;
+  display: block;
+  margin: 0.6rem;
+  text-align: center;
+  }
+
+.igpromoRight{
+  height: 180px;
+}
+.igpromoRight .promoimage{
+  width: 100%;
+  height: 100%;
+  border-radius: 0px 120px 0px 0px;
+  object-fit: cover;
+}
+
+/* END IG STUFF */
+
+
+/* IG SQUARE STUFF */
+
+
+.igpromoback{
+  height: 180px;
+  /* width: 55%; */
+  /* border-radius: 4px 0px 0px 4px; */
+  padding: 0.7rem;
+}
+
+.ig-square-promoTop {
+
+     /* margin: auto; */
+    /* min-height: 450px; */
+    max-height: 700px;
+    width: 320px;
+    /* text-anchor: middle; */
+    border-radius: 4px;
+    text-align: center;
+    contain: layout;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.ig-square-promoTop .title{
+  font-family: 'BergenText-Bold';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+  letter-spacing: 0.08em;
+  /* margin-bottom: 15px; */
+  margin: 0.9rem;
+  text-transform: uppercase;
+}
+.ig-square-promoTop .subtitle{
+  font-family: 'BergenText-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  color: white;
+  letter-spacing: 0.02em;
+  padding-left: 0px;
+  /* padding-right: 1rem; */
+  margin-bottom: 15px;
+  display: block;
+  margin: 0.6rem;
+  }
+
+.ig-square-promoBottom{
+  height: 350px;
+  width: 350px;
+ 
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center;
+ 
+}
+.ig-square-promoBottom .promoimage{
+  width: 100%;
+  height: 100%;
+  border-radius: 0px 120px 0px 0px;
+  object-fit: cover;
+}
+
+/* END IG SQUARE STUFF */
+
+/* IG Diagonal STUFF */
+
+.diagonalbar{
+width: 92.19631rem;
+height: 20.49888rem;
+transform: rotate(32deg);
+flex-shrink: 0;
+fill: #D9D9D9;
+}
+.diagonaltext{
+  transform: rotate(32deg);
+  font-size: 1rem;
+  color: blue;
+}
+
+
+
+/* END IG Diagonal STUFF */
+
+
+
+/* COLOR PICK */
+
+.colorPick{
+
+}
+.colorPick input, select, textarea {
+  width: auto;
+  padding: 15px;
+  border: 1px solid #d9d9d9;
+  min-width: 25px;
+}
+
+.colorPickHolder{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 1rem;
+}
+.colorPickText{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.colorPickText b{
+  font-weight: 600;
+}
+
+/* END COLOR PICK */
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 2.0 css */
+
+.solidbutton {
+  border-radius: 20px;
+  max-height: 40px;
+  font-family: 'productsans-regular';
+  min-width: 100px;
+  border: 2.112px solid #000;
+  padding: 10px;
+  background-color: #000000;
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal; 
+  /* font-weight: bold; */
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  /* align-content: center; */
+  align-items: center;
+  justify-content: center;
+}
+.borderbutton {
+  border-radius: 20px;
+  height: 40px;
+  font-family: 'productsans-regular';
+  min-width: 100px;
+  border: 2.112px solid #000;
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  font-weight: normal; 
+  /* font-weight: bold; */
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  /* align-content: center; */
+  align-items: center;
+  justify-content: center;
+}
+
+.menuborderbutton {
+  border-radius: 20px;
+  max-height: 40px;
+  font-family: 'productsans-regular';
+  min-width: 100px;
+  border: 1px solid #000;
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  font-weight: normal; 
+  /* font-weight: bold; */
+  border-radius: 30px;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  display: flex;
+  /* align-content: center; */
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.borderbuttonwhite {
+  border-radius: 20px;
+  height: 40px;
+  font-family: 'productsans-regular';
+  min-width: 100px;
+  border: 2.112px solid #fff;
+  padding: 10px;
+  /* background-color: #000; */
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal; 
+  /* font-weight: bold; */
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  /* align-content: center; */
+  align-items: center;
+  justify-content: center;
+}
+.solidbuttonwhite {
+  border-radius: 20px;
+  height: 40px;
+  font-family: 'productsans-regular';
+  min-width: 100px;
+  border: 2.112px solid #000;
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  font-weight: normal; 
+  /* font-weight: bold; */
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  /* align-content: center; */
+  align-items: center;
+  justify-content: center;
+}
+
+/* Holder for admin page */
+
+.contentHolder {
+  display: flex;
+  flex-direction: row;
+  min-width: 600px;
+}
+.contentHolderLeft {
+  background-color: white;
+  width: 50%;
+  min-width: 300px;
+  padding: 15px;
+}
+
+.contentHolderRight {
+  /* background-color: #f4f4f4; */
+  width: 50%;
+  padding: 0.5rem;
+  min-width: 300px;
+  max-width: 390px;
+  border-left: solid 0.5px #c5c5c5;
+  position: -webkit-sticky;  
+  position: sticky;
+  top: 0;  
+  align-self: flex-start; 
+}

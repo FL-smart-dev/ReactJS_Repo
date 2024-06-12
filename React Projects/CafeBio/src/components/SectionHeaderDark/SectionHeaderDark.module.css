@@ -1,0 +1,29 @@
+
+
+.SectionHeaderDark {padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;}
+
+.sectionTitle{
+    color: #fff;
+    text-align: center;
+    font-family: 'productsans-black';
+    font-size: 2.75rem;
+    font-style: normal;
+    font-weight: normal; 
+    line-height: 2.8rem;
+    letter-spacing: 0.1125rem;
+}
+.sectionSubtitle{
+    color: #fff;
+
+    text-align: center;
+    font-family: 'productsans-regular';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: normal; 
+    line-height: normal;
+    letter-spacing: 0.045rem;
+}

@@ -1,0 +1,24 @@
+@font-face { font-family:BergenText-Bold;src: url(./fonts/BergenText-Bold.otf);}
+@font-face { font-family:BergenText-SemiBoldItalic;src: url(./fonts/BergenText-SemiBoldItalic.otf);}
+@font-face { font-family:BergenText-SemiBold;src: url(./fonts/BergenText-SemiBold.otf);}
+@font-face { font-family:BergenText-Regular;src: url(./fonts/BergenText-Regular.otf);}
+@font-face { font-family:BergenText-Italic;src: url(./fonts/BergenText-Italic.otf);}
+@font-face { font-family:BergenText-BoldItalic;src: url(./fonts/BergenText-BoldItalic.otf);}
+@import url('normalize.css');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;  
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

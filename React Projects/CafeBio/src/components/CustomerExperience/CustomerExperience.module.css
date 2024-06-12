@@ -1,0 +1,71 @@
+.CustomerExperience {}
+.ceholder{
+    display: flex;
+    flex-direction: row;
+    /* max-width: 80%; */
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+
+.ceitem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cedescriptionholder{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    /* height: 150px; */
+}
+.cedescriptionholderimg{
+    max-width: 18rem;
+}
+
+.cenumber{
+    color: #000;
+    text-align: center;
+    font-family: "productsans-black";
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: normal; 
+
+    letter-spacing: 0.1125rem;
+}
+.cedescription{
+    color: #413A3A;
+    font-family: "productsans-regular";
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: normal; 
+    line-height: normal;
+    letter-spacing: 0.05625rem;
+    padding: 10px;
+}
+
+@media (min-width:375px) and (max-width:724px) {
+
+    .ceholder{
+        display: flex;
+        flex-direction: column;
+        /* max-width: 80%; */
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .cedescriptionholder{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-bottom: 15px;
+        /* height: 80px; */
+        width: 300px;
+    }
+    
+}

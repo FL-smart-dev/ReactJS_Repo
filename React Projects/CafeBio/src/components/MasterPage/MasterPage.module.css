@@ -1,0 +1,95 @@
+.MasterPage {
+    background-color: white;
+}
+.masterpageholder{
+    display: flex;
+    flex-direction: column;
+}
+.masterpagebody{
+    display: flex;
+    flex-direction: row;
+}
+.sidemenu{
+    background-color: #f4f4f4;
+    width: 30%;
+    max-width: 250px;
+    padding: 1rem;
+    border-radius: 4px;
+    height: 100vh;  
+    display: flex;  
+    flex-direction: column; 
+}
+.sidemenu Button{
+    /* box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 4px; */
+    width: 100%;
+    margin : 0.5rem 0.5rem 0.8rem 0rem;
+    /* font-weight: 700; */
+    /* font-size: 1rem ; */
+     height: 40px; 
+}
+.sidemenu a {
+    text-decoration: none;
+}
+.sidemenu Button span a{
+    text-decoration: none;
+    /* box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 4px; */
+    
+    /* font-weight: 700; */
+    /* font-size: 1rem ; */
+    
+}
+.logoutButton {
+    text-decoration: underline;
+    color: #1890ff;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: color 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .createPromoButton {
+    color: white;
+    background-color: rgb(20, 107, 255);
+    border: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  .tellUsThoughts {
+    margin-top: auto;
+    text-align: center;
+    padding: 15px;
+    color: black;  
+    border-top: 1px solid #ccc;  
+  }
+  .contentHolder {
+    display: flex;
+    flex-direction: row;
+    min-width: 600px;
+  }
+  .contentHolderLeft {
+    background-color: white;
+    width: 50%;
+    min-width: 300px;
+    padding: 15px;
+  }
+  
+  .contentHolderRight {
+    /* background-color: #f4f4f4; */
+    width: 50%;
+    padding: 0.5rem;
+    min-width: 300px;
+    max-width: 390px;
+    border-left: solid 0.5px #c5c5c5;
+    position: -webkit-sticky;  
+    position: sticky;
+    top: 0;  
+    align-self: flex-start; 
+  }

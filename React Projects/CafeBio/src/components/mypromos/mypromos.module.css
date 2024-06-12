@@ -1,0 +1,140 @@
+.searchContainer {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 10px 30px 10px 40px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-size: 16px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398l3.85 3.85a1 1 0 0 0 1.415-1.415l-3.85-3.85zM2 6.5a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: 16px 16px;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+.searchIcon,
+.fa-search {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  color: #888;
+}
+
+.promosTable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.promosTable th,
+.promosTable td {
+  border: 1px solid lightgray;
+  border: none;
+  text-align: left;
+  padding: 8px;
+}
+
+.promosTable tr {
+  border-bottom: 1px solid lightgray;
+}
+
+.promosTable thead {
+  border-top: 1px solid lightgray;
+}
+
+.dot {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.blue {
+  color: blue;
+}
+
+/* Add hover effect for table rows */
+.promoRow:hover {
+  background-color: #baeeff; /* Very light gray */
+}
+
+.grayRow {
+  background-color: #f2f2f2; /* Gray color */
+}
+
+.whiteRow {
+  background-color: white; /* White color */
+}
+
+.promosContainer {
+  padding: 20px; /* Add padding around the container */
+}
+
+.filterButtons {
+  margin-bottom: 20px; /* Add margin at the bottom to create space between filter buttons and table */
+}
+
+.filterButtons button {
+  background-color: white; /* Change background color to white */
+  border: 1px solid gray; /* Add border */
+  border-radius: 15px; /* Add border radius */
+  padding: 10px 20px; /* Add padding inside the buttons */
+  margin-right: 10px; /* Add margin between buttons */
+}
+
+.filterButtons button:last-child {
+  margin-right: 0; /* Remove margin for the last button */
+}
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+  z-index: 9999; /* ensure it's on top of everything */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.modalContent {
+  text-align: center;
+}
+
+.modal button {
+  margin: 0 10px;
+}
+.buttonWithMargin {
+  margin-top: 5px;
+  width: 60px;
+}
+.greenButton {
+  background-color: green;
+  color: white;
+  border: none;
+  box-shadow: none;
+  border-radius: 10px;
+  min-height: 30px;
+}
+
+.redButton {
+  background-color: red;
+  color: white;
+  border: none;
+  box-shadow: none;
+  border-radius: 10px;
+  min-height: 30px;
+}

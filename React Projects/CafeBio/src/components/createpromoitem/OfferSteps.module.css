@@ -1,0 +1,25 @@
+.nextButton {
+  color: white;
+  background-color: black;
+  min-width: fit-content;
+  border-radius: 20px;
+  width: 25%;
+  height: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+  border: 0px;
+}
+
+.prevButton {
+  color: white;
+  background-color: #393939;
+  min-width: fit-content;
+  border-radius: 20px;
+  width: 25%;
+  height: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+  border: 0px;
+  margin-left: 20px;
+}
+

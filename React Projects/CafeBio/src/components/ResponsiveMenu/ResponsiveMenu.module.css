@@ -1,0 +1,59 @@
+
+@media (min-width:375px) and (max-width:724px) {
+    .ResponsiveMenu {
+        visibility: visible;
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+    }
+
+    .menudiv{
+        position: static;
+        top: 100%;
+        min-width: 15rem;
+        background-color: white;
+        z-index: 2;
+        /* margin: 1rem; */
+        border-radius: 12px;
+        
+    }
+    .menuholder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    }
+  
+    .menuholder ul{
+        margin-top: auto;
+        list-style-type: none;
+    }
+
+    
+    .menuholder li{
+        display: grid;
+        padding: 10px ;
+    }
+
+    .menuholder a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: 2px solid #000; */
+        /* border-radius: 22px; */
+        padding: 10px;
+        color: #000;
+        text-decoration: none;
+    }
+}
+
+@media (min-width:723px) { 
+.ResponsiveMenu {
+    visibility:hidden;
+    height: 0px;
+    overflow: hidden;
+}
+
+}

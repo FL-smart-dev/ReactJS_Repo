@@ -1,0 +1,161 @@
+.Createpromoitem {
+  /* max-width: 100%; */
+  padding: 0rem;
+  font-size: 1rem;
+  margin-left: 1rem;
+  /* margin: auto; */
+  padding-top: 10px;
+}
+
+.btn {
+  /* min-width: 300px; */
+  /* margin: 10px; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.h1header {
+  font-family: "BergenText-SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  /* text-align: center; */
+  letter-spacing: 0.01em;
+  padding-left: 1rem;
+  text-transform: capitalize;
+  margin-bottom: 0.25rem;
+  color: #737373;
+}
+.h2header {
+  font-family: "BergenText-SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.25rem;
+  /* text-align: center; */
+  letter-spacing: 0.01em;
+  padding-left: 1rem;
+  text-transform: capitalize;
+  margin-bottom: 0.25rem;
+  color: #737373;
+}
+.subtitle {
+  font-family: "BergenText-Regular";
+  font-style: normal;
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  /* text-align: center; */
+  letter-spacing: 0.05em;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 20px;
+  display: block;
+}
+input,
+select,
+textarea {
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  min-width: 200px;
+  max-width: 350px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Createpromoitemholder {
+  display: flex;
+  flex-direction: row;
+  min-width: 600px;
+}
+.promoholderLeft {
+  background-color: white;
+  /* width: 50%; */
+  padding: 0.5rem;
+  min-width: 300px;
+  max-height: 110vh;
+  overflow-y: auto;
+}
+.promoholderRight {
+  /* background-color: #f4f4f4; */
+  width: 50%;
+  padding: 0.5rem;
+  min-width: 300px;
+  max-width: 390px;
+  border-left: solid 0.5px #c5c5c5;
+}
+.downloadButton {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.sm_div {
+  width: 350px;
+  height: 350px;
+}
+.Createpromoitem Input {
+  margin-bottom: 15px;
+  width: 350px;
+}
+.labelStyle {
+  text-align: left;
+  line-height: 18px;
+  padding-bottom: 12px;
+  display: block;
+}
+.labelheader {
+  /* font-style: normal; */
+  /* font-weight: 400; */
+  /* font-size: 16px; */
+  line-height: 22px;
+  padding-bottom: 12px;
+  display: block;
+  /* identical to box height, or 138% */
+  color: #3d6b96;
+}
+
+.categoryLabel {
+  font-size: 0.8rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #a2a2a2;
+  padding: 0.5rem;
+}
+
+.messagecontainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Theme collapsible */
+
+.collapsiblediv {
+  font-size: large;
+  font-weight: 900;
+  background-color: linear-gradient(43deg, rgb(93, 26, 147), rgb(188, 26, 26));
+}
+.theme-collapsible {
+  transition: max-height 0.3s ease-out;
+  overflow: hidden;
+  max-height: 0; /* Initially collapsed */
+}
+
+/* You might need a class to expand the collapsible */
+.theme-collapsible-expanded {
+  max-height: 500px; /* Adjust as per content */
+}
+
+.uploadContainer {
+  border: 2px solid rgba(5, 5, 5, 0.06) !important;
+  padding: 15px 10px 0 10px;
+}
+
+.upload {
+  display: flex;
+  flex-direction: column !important;
+  font-size: 20px !important;
+}

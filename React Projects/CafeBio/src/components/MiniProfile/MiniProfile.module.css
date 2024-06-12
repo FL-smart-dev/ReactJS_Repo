@@ -1,0 +1,22 @@
+.MiniProfile {}
+.profilecontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.miniprofileimage {
+  height: 40px !important;
+  width: 40px !important;
+  border-radius: 20px;
+}
+.miniprofileName {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.minimerchantName {
+    font-size: 0.9rem;
+    font-weight: 200;
+}

@@ -1,0 +1,15 @@
+version: '3'
+services:
+  cafebio-ui:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    container_name: cafebio-ui
+    stdin_open: true
+    volumes:
+       - .:/usr/src/
+      
+    command: npm run start:https
+    

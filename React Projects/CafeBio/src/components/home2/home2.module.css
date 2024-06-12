@@ -1,0 +1,201 @@
+.Home2 {
+   
+}
+
+.blinkCursor {
+    color: #00a2ff;
+    animation: blinkCursorAnimation 0.5s step-end infinite;
+}
+
+@keyframes blinkCursorAnimation {
+    from, to { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.herocontainer{
+    display: flex;
+    flex-direction: row;
+    /* height: 41.375rem; */
+    padding: 1.875rem 0rem;
+    align-items: center;
+    align-content: center;
+    gap: 0.9rem;
+}
+.herocopycontainer{
+    width: 43.8125rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.title {
+    color: #000;
+    text-align: center;
+    font-family: "productsans-black";
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: normal; 
+        line-height: 4.6rem;
+}
+.subtitle{
+    color: rgba(0, 0, 0, 0.69);
+    text-align: center;
+    font-family: "productsans-medium";
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: normal; 
+    line-height: 1.2rem;
+    letter-spacing: 0.045rem;
+}
+ a {
+color: #0085FF;
+text-align: center;
+font-family: "productsans-medium";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: normal; 
+line-height: 1.54975rem; /* 137.753% */
+letter-spacing: 0.03375rem;
+/* text-decoration-line: underline; */
+}
+.mainbutton{
+    border-radius: 1.6085rem;
+    border: 2px solid #000;
+    width: 28rem;
+    height: 3.125rem;
+    flex-shrink: 0;
+    background: #000;
+    color: #FFF;
+    font-family: "productsans-medium";
+    font-size: 1.30069rem;
+    font-style: normal;
+    font-weight: normal; 
+    line-height: 1.54975rem;
+    letter-spacing: 0.039rem;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+
+}
+.mainbutton a {
+    text-decoration: none;
+    color: #fff;
+}
+.heroimage{
+    max-width: 29rem;
+    /* width: 35.78056rem;
+    height: 40.01194rem; */
+}
+
+/* 1024 ONLY* */
+@media (min-width: 1024px) and (max-width: 1100px) {
+    .title {
+        color: #000;
+        text-align: center;
+        font-family: "productsans-black";
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: normal; 
+        line-height: 4.6rem;
+    }
+
+}
+
+
+
+/* MOBILE ONLY* */
+    @media (min-width: 375px) and (max-width: 1024px) {
+
+        .Home2 {
+            /* margin-bottom: 8rem; */
+            /* padding: 15px; */
+        }
+.herocontainer{
+    display: flex;
+    flex-direction: column;
+    /* height: 41.375rem; */
+    padding: 1.875rem 0rem;
+    align-items: center;
+    align-content: center;
+    gap: 1.25rem;   
+}
+.herocopycontainer{
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.title {
+    color: #000;
+    text-align: center;
+    font-family: "productsans-black";
+    font-size: 2.9rem;
+    font-style: normal;
+    font-weight: normal; 
+    line-height: 3.1rem;
+    height: 9rem;
+}
+.subtitle{
+    color: rgba(0, 0, 0, 0.69);
+        text-align: center;
+        font-family: "productsans-medium";
+        font-size: 0.9rem;
+        font-style: normal;
+        font-weight: normal; 
+        line-height: 1rem;
+        letter-spacing: 0.045rem;
+}
+ a {
+color: #0085FF;
+text-align: center;
+font-family: "productsans-medium";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: normal; 
+line-height: 1.54975rem; /* 137.753% */
+letter-spacing: 0.03375rem;
+/* text-decoration-line: underline; */
+}
+.mainbutton{
+    border-radius: 1.6085rem;
+    border: 2px solid #000;
+    max-width: 300px; 
+    height: 3.125rem;
+    /* flex-shrink: 0; */
+    background: #000;
+    color: #FFF;
+    font-family: "productsans-medium";
+    font-size: 1.30069rem;
+    font-style: normal;
+    font-weight: normal; 
+    line-height: 1.54975rem;
+    letter-spacing: 0.039rem;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+
+}
+.mainbutton a {
+    text-decoration: none;
+    color: #fff;
+}
+.heroimagediv{
+    display: flex;
+    justify-content: center;
+}
+.heroimage{
+    max-width: 80%;
+    /* width: 35.78056rem;
+    height: 40.01194rem; */
+}
+
+
+/* MOBILE ONLY* */
+}

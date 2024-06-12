@@ -1,0 +1,92 @@
+/* insightsScreen.module.css */
+
+.sessionsContainer {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  width: fit-content;
+}
+
+.captionContainer {
+  padding: 0 20px; 
+}
+
+.card {
+  padding-top: 5px;
+  display: inline-flex;
+  flex-direction: column;
+  cursor: pointer;
+  &:hover, &:checked {
+    /* transform: scale(1.01); */
+    box-shadow: black;
+    font-weight: 700;
+    /* border: 1px solid grey; */
+  }
+}
+
+.promosAndTableContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.promosContainer {
+  width: min-content;
+  display: block;
+  /* overflow-y: auto;  */
+  border-right: 1px solid #e8e8e8; 
+  padding: 0 20px; 
+  /* height: calc(130vh - 200px); */
+  min-width: 340px;
+}
+
+.caption {
+  font-weight: 900;
+}
+
+.phoneCell {
+  color: blue; 
+}
+
+.title {
+  padding-top: 20px;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.subtitle {
+  padding-bottom: 10px;  
+  color: rgba(0, 0, 0, 0.7);  
+  font-size: 18px;  
+  font-weight: 600;  
+}
+
+.tableContainer {
+  /* flex: 1; */
+  width: 100%;
+  max-width: 100%;
+  padding: 0 20px;
+  position: sticky;
+  top: 0;  
+  align-self: flex-start; 
+}
+
+.ant-table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+/* .ant-table td, */
+.ant-table th {
+  white-space: nowrap;
+  max-width: 150px;  
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+.ant-table td {
+  background-color: white;
+}
+
+.selected {
+  background-color: lightgray;
+}
